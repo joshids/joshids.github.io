@@ -1,0 +1,35 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Darshan JOSHI
+tagline:             Software Development etc.
+url:                 http://joshids.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Darshan JOSHI
+  url:               https://twitter.com/DarshanWork
+  email:             joshids@gmail.com
+
+pages_list:
+  About: '/about'
+  Blog: '/archive'
+  Feed: '/atom.xml'
+
+# Custom vars
+version:             0.0.0.1
+github:
+  repo:              https://github.com/joshids/joshids.github.io

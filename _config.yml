@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
 title:               Darshan JOSHI
@@ -33,3 +33,6 @@ pages_list:
 version:             0.0.0.1
 github:
   repo:              https://github.com/joshids/joshids.github.io
+
+# Gems
+plugins: [jekyll-paginate]

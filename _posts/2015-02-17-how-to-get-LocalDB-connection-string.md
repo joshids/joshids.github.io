@@ -30,3 +30,4 @@ If you want to use Local DB for Unit Tests or other purposes, and also, need con
 6. Right Click and select `Properties`
 7. From the Properties pane, select Vaue for `ConnectionString` property.
 8. You can use this value as connection string in your projects.
+9. That's all!
